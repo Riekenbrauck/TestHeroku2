@@ -1,0 +1,42 @@
+.para
+{
+    margin-top: 20vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.paraImage{
+    width: 100%;
+}
+
+.paraBio
+{
+    padding: 0px 5%;
+}
+
+
+.paraback
+{
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-position: center;
+    background-size: 100%;
+    opacity: .2;
+}
+
+
+@media all and (min-width: 500px) {
+    .para
+{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.paraBio
+{
+    padding: 0px 20px;
+}
+  }
+

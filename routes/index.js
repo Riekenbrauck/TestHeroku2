@@ -5,7 +5,11 @@ const data = require(`../data`);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { 
+    title: 'Parasites', 
+    subTitle: "For a Limited Time Only",
+    galleryTitle: "Gallery",
+    gallerySubTitle: "Whatever Suits Your Fancy" });
 });
 
 router.get('/:user', function(req, res, next) {
